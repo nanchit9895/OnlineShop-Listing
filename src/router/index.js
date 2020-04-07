@@ -1,11 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import OpenMyShop from '../views/OpenMyShop.vue'
 import ShopSearch from '../views/ShopSearch1.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/openmyshop',
+    name: 'OpenMyShop',
+    component: OpenMyShop
+  },
+  {  
     path: '/shopsearch1',
     name: 'ShopSearch',
     component: ShopSearch
