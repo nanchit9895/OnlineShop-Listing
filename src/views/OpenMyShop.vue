@@ -7,3 +7,10 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+    @import "../../public/css/openmyshop.css"
+</style>
+
+
+
